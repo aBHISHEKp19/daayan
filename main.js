@@ -25,7 +25,11 @@ for (const file of commandFiles) {
     client.commands.set(command.name, command);
 }
 
-client.once('ready', () => { console.log('daayan is here'); });
+client.once('ready', () => { console.log('daayan is here'); 
+
+client.user.setActivity("BB" + BotVersion);
+
+});
 
 client.on('messageCreate', message => {
 
