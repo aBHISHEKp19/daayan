@@ -27,7 +27,7 @@ for (const file of commandFiles) {
 
 client.once('ready', () => { console.log('daayan is here'); 
 
-client.user.setActivity("BB" + BotVersion);
+client.user.setActivity("BB |" + BotVersion);
 
 });
 
