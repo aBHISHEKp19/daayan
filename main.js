@@ -2,6 +2,9 @@ const Discord = require('discord.js');
 const { Client } = require("discord.js");
 const { Intents } = require('discord.js');
 
+                                                      // YO KUSHAL BRO 
+
+
 
 require('dotenv').config();
 
