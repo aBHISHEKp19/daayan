@@ -60,7 +60,7 @@ client.on('messageCreate', message => {
     client.on('messageCreate', message => {
 
         if (message.mentions.has(client.user.id)) {
-            message.channel.send("**DAAYAN HUN MAI**!");
+            message.channel.send("**DAAYAN HUN MAI**!!!");
         }
     })
 
