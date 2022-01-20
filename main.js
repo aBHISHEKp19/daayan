@@ -41,7 +41,6 @@ client.on('messageCreate', message => {
 
     const command = args.shift().toLowerCase();
 
-
     if (command === 'join') {
         client.commands.get('join').execute(message, args);
     }
@@ -56,9 +55,14 @@ client.on('messageCreate', message => {
 
     }
 
-
+  
 })
+    client.on('messageCreate', message => {
 
+        if (message.mentions.has(client.user.id)) {
+            message.channel.send("**DAAYAN HUN MAI**!");
+        }
+    })
 
 /*
 const discordTTS = require("discord-tts");
