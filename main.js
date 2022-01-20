@@ -52,7 +52,7 @@ client.on('messageCreate', message => {
 
     if (command === 'speak') {
 
-        message.channel.send("DAAYAN HUN MAI", { tts: true })
+        message.channel.send("**DAAYAN HUN MAI**", { tts: true })
 
     }
 
