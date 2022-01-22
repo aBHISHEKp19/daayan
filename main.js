@@ -89,7 +89,10 @@ client.on('messageCreate', message => {
 
             message.channel.send("**TU CHUP SAALE <a:spookyghost:934414566845198356>**");
         }
+        if (message.content === 'Uhhun') {
 
+            message.channel.send("** UHHUN <a:spookyghost:934414566845198356>**");
+        }
 
         if (message.content === 'meri h') {
 
