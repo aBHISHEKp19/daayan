@@ -87,7 +87,7 @@ client.on('messageCreate', message => {
 
         if (message.content === 'chup') {
 
-            message.channel.send("**TU CHUP SAALE <a:spookyghost:934414566845198356>**");
+            message.channel.send("**TU CHUP BEY <a:spookyghost:934414566845198356>**");
         }
         if (message.content === 'Chup') {
 
@@ -170,6 +170,16 @@ client.on('messageCreate', message => {
 
             message.channel.send("**BIG FAN MAM!!!  <a:ghostu:934414227026878496>**");
         }
+
+        if (message.content === 'hi') {
+
+            message.channel.send("** hoi <a:spookyghost:934414566845198356>**");
+        }
+
+
+
+
+
     /*    if (message.content === 'Rule 1') {
 
            message.channel.send(`**▸Use channels for the thing they are made for,  this includes (but not limited to) media channel for sending media, chat Channel for chatting, Bot commands for using Commands 
