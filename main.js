@@ -89,21 +89,40 @@ client.on('messageCreate', message => {
 
             message.channel.send("**TU CHUP SAALE <a:spookyghost:934414566845198356>**");
         }
+        if (message.content === 'Chup') {
+
+            message.channel.send("**TU CHUP SAALE <a:spookyghost:934414566845198356>**");
+        }
         if (message.content === 'Uhhun') {
 
             message.channel.send("** UHHUN <a:spookyghost:934414566845198356>**");
         }
+        if (message.content === 'uhhun') {
 
+            message.channel.send("** UHHUN <a:spookyghost:934414566845198356>**");
+        }
+
+        if (message.content === 'Meri h') {
+
+            message.channel.send("**Mai sirf `APPY` Ki hun <a:ghostu:934414227026878496>**");
+        }
         if (message.content === 'meri h') {
 
             message.channel.send("**Mai sirf `APPY` Ki hun <a:ghostu:934414227026878496>**");
         }
+        if (message.content === 'Appy') {
 
+            message.channel.send("**I LOVE YOU appu <a:ghostu:934414227026878496>**");
+        }
         if (message.content === 'appy') {
 
             message.channel.send("**I LOVE YOU appu <a:ghostu:934414227026878496>**");
         }
 
+        if (message.content === 'Kushal') {
+
+            message.channel.send("**Yes baby? <a:ghostu:934414227026878496>**");
+        } 
         if (message.content === 'kushal') {
 
             message.channel.send("**Yes baby? <a:ghostu:934414227026878496>**");
@@ -113,9 +132,21 @@ client.on('messageCreate', message => {
 
             message.channel.send("**I LOVE YOU TOO <a:ghostu:934414227026878496>**");
         }
+        if (message.content === 'Ily') {
+
+            message.channel.send("**I LOVE YOU TOO <a:ghostu:934414227026878496>**");
+        }
         if (message.content === 'ansh') {
 
-            message.channel.send("**Vo chutiya hai <a:ghostu:934414227026878496>**");
+            message.channel.send("**Vo toh sexy hai <a:ghostu:934414227026878496>**");
+        }
+        if (message.content === 'Ansh') {
+
+            message.channel.send("**Vo toh sexy hai <a:ghostu:934414227026878496>**");
+        }
+        if (message.content === 'Nandini') {
+
+            message.channel.send("**NANDU SABKA BANDU <a:ghostu:934414227026878496>**");
         }
         if (message.content === 'nandini') {
 
@@ -123,6 +154,10 @@ client.on('messageCreate', message => {
         }
 
 
+        if (message.content === 'Kirti') {
+
+            message.channel.send("**CHAMELI HAI VO <a:ghostu:934414227026878496>**");
+        }
         if (message.content === 'kirti') {
 
             message.channel.send("**CHAMELI HAI VO <a:ghostu:934414227026878496>**");
