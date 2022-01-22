@@ -77,7 +77,7 @@ client.on('messageCreate', message => {
     client.on('messageCreate', message => {
 
         if (message.mentions.has(client.user.id)) {
-            message.channel.send("**DAAYAN LOVES YOU!!!");
+            message.channel.send("**DAAYAN LOVES YOU!!!**");
         }
       
      /*   if (message.content === 'Hi') {
