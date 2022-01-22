@@ -162,8 +162,14 @@ client.on('messageCreate', message => {
 
             message.channel.send("**CHAMELI HAI VO <a:ghostu:934414227026878496>**");
         }
+        if (message.content === 'nikita') {
 
-       
+            message.channel.send("**BIG FAN MAM!!! <a:ghostu:934414227026878496>**");
+        }
+        if (message.content === 'Nikita') {
+
+            message.channel.send("**BIG FAN MAM!!!  <a:ghostu:934414227026878496>**");
+        }
     /*    if (message.content === 'Rule 1') {
 
            message.channel.send(`**▸Use channels for the thing they are made for,  this includes (but not limited to) media channel for sending media, chat Channel for chatting, Bot commands for using Commands 
