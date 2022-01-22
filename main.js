@@ -183,7 +183,7 @@ let voiceConnection;
 let audioPlayer = new AudioPlayer();
 
 client.on("messageCreate", async (msg) => {
-    if (msg.content === prefix + "tts") {
+    if (msg.content === prefix + "tts") { 
         const stream = discordTTS.getVoiceStream("BHOOT HUN MAI");
         const audioResource = createAudioResource(stream, { inputType: StreamType.Arbitrary, inlineVolume: true });
         if (!voiceConnection || voiceConnection?.status === VoiceConnectionStatus.Disconnected) {
@@ -201,6 +201,25 @@ client.on("messageCreate", async (msg) => {
         }
     }
 });*/
+client.on('messageDelete', message => {
+    if (message.author.bot) return;
+    if (message.mentions.users.bot) return;
+    if (message.mentions.has(client.user.id)) return;
 
+    if (message.mentions.users.first()) {
+
+
+        const lol = new Discord.MessageEmbed()
+            .setColor('#fb1239')
+            .setDescription(`${message.author} ghost pinged ${message.mentions.users.first()}`)
+            .addField('Message Content', message.content)
+            .setFooter('ghost ping krna buri baat')
+
+        // const channel = client.channels.cache.get(`925991578160492624`)
+        // channel.send({ embeds: [lol] }) 
+        return message.channel.send({ embeds: [lol] });
+
+    }
+});
 
 client.login(process.env.TOKEN);
