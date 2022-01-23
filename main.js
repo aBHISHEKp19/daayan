@@ -171,7 +171,7 @@ client.on('messageCreate', message => {
             message.channel.send("**BIG FAN MAM!!!  <a:ghostu:934414227026878496>**");
         }
 
-        if (message.content.has('hi')) {
+        if (message.content.startsWith('hi')) {
 
             message.channel.send("** hoi <a:spookyghost:934414566845198356>**");
         }
