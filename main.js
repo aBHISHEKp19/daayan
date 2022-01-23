@@ -176,7 +176,10 @@ client.on('messageCreate', message => {
             message.channel.send("** hoi <a:spookyghost:934414566845198356>**");
         }
 
+        if (message.content.startsWith('Hi')) {
 
+            message.channel.send("** hoi <a:spookyghost:934414566845198356>**");
+        }
 
 
 
