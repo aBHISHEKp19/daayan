@@ -32,7 +32,7 @@ client.once('ready', () => {
     console.log('daayan is here');
 
     //client.user.setActivity("BB |" + BotVersion);
-    client.user.setActivity('BHOOT BANGLA', { name: 'HYPNOTIZING' });
+    client.user.setActivity('BHOOT BANGLA', { type: 'Watching' });
 });
 
 client.on('messageCreate', message => {
