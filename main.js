@@ -121,11 +121,11 @@ client.on('messageCreate', message => {
 
         if (message.content === 'Kushal') {
 
-            message.channel.send("**Yes baby? <a:ghostu:934414227026878496>**");
+            message.channel.send("**I MISS HIM TOO <a:ghostu:934414227026878496>**");
         } 
         if (message.content === 'kushal') {
 
-            message.channel.send("**Yes baby? <a:ghostu:934414227026878496>**");
+            message.channel.send("**I MISS HIM TOO <a:ghostu:934414227026878496>**");
         } 
 
         if (message.content === 'ily') {
