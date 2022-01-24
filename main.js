@@ -84,9 +84,6 @@ client.on('messageCreate', message => {
 
             message.channel.send("**TU CHUP SAALE <a:spookyghost:934414566845198356>**");
         }*/
-        else {
-            
-      //  if(message.mentions.has(client.user.id)) return;
 
         if (message.content === 'chup') {
 
@@ -131,11 +128,11 @@ client.on('messageCreate', message => {
             message.channel.send("**I MISS HIM TOO <a:ghostu:934414227026878496>**");
         } 
 
-        if (message.content === 'ily') {
+        if (message.content.startsWith('ily')) {
 
             message.channel.send("**I LOVE YOU TOO <a:ghostu:934414227026878496>**");
         }
-        if (message.content === 'Ily') {
+        if (message.content.startsWith('Ily')) {
 
             message.channel.send("**I LOVE YOU TOO <a:ghostu:934414227026878496>**");
         }
@@ -183,7 +180,7 @@ client.on('messageCreate', message => {
 
             message.channel.send("** hoi <a:spookyghost:934414566845198356>**");
         }
-    }
+
 
 
     /*    if (message.content === 'Rule 1') {
