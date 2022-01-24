@@ -85,98 +85,98 @@ client.on('messageCreate', message => {
             message.channel.send("**TU CHUP SAALE <a:spookyghost:934414566845198356>**");
         }*/
 
-        if (message.content === 'chup') {
+       else if (message.content === 'chup') {
 
             message.channel.send("**TU CHUP BEY <a:spookyghost:934414566845198356>**");
         }
-        if (message.content === 'Chup') {
+      else  if (message.content === 'Chup') {
 
             message.channel.send("**TU CHUP SAALE <a:spookyghost:934414566845198356>**");
         }
-        if (message.content === 'Uhhun') {
+   else    if (message.content === 'Uhhun') {
 
             message.channel.send("** UHHUN <a:spookyghost:934414566845198356>**");
         }
-        if (message.content === 'uhhun') {
+     else   if (message.content === 'uhhun') {
 
             message.channel.send("** UHHUN <a:spookyghost:934414566845198356>**");
         }
 
-        if (message.content === 'Meri h') {
+else if (message.content === 'Meri h') {
 
             message.channel.send("**Mai sirf `APPY` Ki hun <a:ghostu:934414227026878496>**");
         }
-        if (message.content === 'meri h') {
+    else    if (message.content === 'meri h') {
 
             message.channel.send("**Mai sirf `APPY` Ki hun <a:ghostu:934414227026878496>**");
         }
-        if (message.content === 'Appy') {
+    else    if (message.content === 'Appy') {
 
             message.channel.send("**I LOVE YOU appu <a:ghostu:934414227026878496>**");
         }
-        if (message.content === 'appy') {
+    else    if (message.content === 'appy') {
 
             message.channel.send("**I LOVE YOU appu <a:ghostu:934414227026878496>**");
         }
 
-        if (message.content === 'Kushal') {
+    else    if (message.content === 'Kushal') {
 
             message.channel.send("**I MISS HIM TOO <a:ghostu:934414227026878496>**");
         } 
-        if (message.content === 'kushal') {
+    else    if (message.content === 'kushal') {
 
             message.channel.send("**I MISS HIM TOO <a:ghostu:934414227026878496>**");
         } 
 
-        if (message.content === 'ily') {
+     else   if (message.content === 'ily') {
 
             message.channel.send("**I LOVE YOU TOO <a:ghostu:934414227026878496>**");
         }
-        if (message.content === 'Ily') {
+     else   if (message.content === 'Ily') {
 
             message.channel.send("**I LOVE YOU TOO <a:ghostu:934414227026878496>**");
         }
-        if (message.content === 'ansh') {
+     else   if (message.content === 'ansh') {
 
             message.channel.send("**Vo toh sexy hai <a:ghostu:934414227026878496>**");
         }
-        if (message.content === 'Ansh') {
+      else  if (message.content === 'Ansh') {
 
             message.channel.send("**Vo toh sexy hai <a:ghostu:934414227026878496>**");
         }
-        if (message.content === 'Nandini') {
+      else  if (message.content === 'Nandini') {
 
             message.channel.send("**NANDU SABKA BANDU <a:ghostu:934414227026878496>**");
         }
-        if (message.content === 'nandini') {
+     else   if (message.content === 'nandini') {
 
             message.channel.send("**NANDU SABKA BANDU <a:ghostu:934414227026878496>**");
         }
 
 
-        if (message.content === 'Kirti') {
+     else   if (message.content === 'Kirti') {
 
             message.channel.send("**CHAMELI HAI VO <a:ghostu:934414227026878496>**");
         }
-        if (message.content === 'kirti') {
+     else   if (message.content === 'kirti') {
 
             message.channel.send("**CHAMELI HAI VO <a:ghostu:934414227026878496>**");
         }
-        if (message.content === 'nikita') {
+     else   if (message.content === 'nikita') {
 
             message.channel.send("**BIG FAN MAM!!! <a:ghostu:934414227026878496>**");
         }
-        if (message.content === 'Nikita') {
+     else   if (message.content === 'Nikita') {
 
             message.channel.send("**BIG FAN MAM!!!  <a:ghostu:934414227026878496>**");
         }
 
-        if (message.content.startsWith('hi')) {
+      else  if (message.content.startsWith('hi')) {
 
             message.channel.send("** hoi <a:spookyghost:934414566845198356>**");
         }
 
-        if (message.content.startsWith('Hi')) {
+     else   if (message.content.startsWith('Hi')) {
 
             message.channel.send("** hoi <a:spookyghost:934414566845198356>**");
         }
