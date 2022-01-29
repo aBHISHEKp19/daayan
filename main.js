@@ -2,7 +2,6 @@ const Discord = require('discord.js');
 const { Client } = require("discord.js");
 const { Intents } = require('discord.js');
 
-                                                      // YO KUSHAL BRO 
 
 
 
@@ -220,7 +219,7 @@ client.on("messageCreate", async (msg) => {
         }
     }
 });*/
-client.on('messageDelete', message => {
+/*client.on('messageDelete', message => {
     if (message.author.bot) return;
     if (message.mentions.users.bot) return;
     if (message.mentions.has(client.user.id)) return;
@@ -239,6 +238,6 @@ client.on('messageDelete', message => {
         return message.channel.send({ embeds: [lol] });
 
     }
-});
+});*/
 
 client.login(process.env.TOKEN);
