@@ -163,19 +163,19 @@ client.on('messageCreate', message => {
         }
         if (message.content === 'nikita') {
 
-            message.channel.send("**BIG FAN MAM!!! <a:ghostu:934414227026878496>**");
+            message.channel.send("**chup baith BNA dedungi!!! <a:ghostu:934414227026878496>**");
         }
         if (message.content === 'Nikita') {
 
-            message.channel.send("**BIG FAN MAM!!!  <a:ghostu:934414227026878496>**");
+            message.channel.send("**chup beth BNA dedungi!!!  <a:ghostu:934414227026878496>**");
         }
 
-        if (message.content.startsWith('hi')) {
+        if (message.content === 'hi' ) {
 
             message.channel.send("** hoi <a:spookyghost:934414566845198356>**");
         }
 
-        if (message.content.startsWith('Hi')) {
+        if (message.content === 'Hi') {
 
             message.channel.send("** hoi <a:spookyghost:934414566845198356>**");
         }
