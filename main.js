@@ -161,11 +161,11 @@ client.on('messageCreate', message => {
 
             message.channel.send("**CHAMELI HAI VO <a:ghostu:934414227026878496>**");
         }
-        if (message.content === 'nikita') {
+        if (message.content.startsWith('niki')) {
 
             message.channel.send("**chup baith BNA dedungi!!! <a:ghostu:934414227026878496>**");
         }
-        if (message.content === 'Nikita') {
+        if (message.content.startsWith('Niki')) {
 
             message.channel.send("**chup beth BNA dedungi!!!  <a:ghostu:934414227026878496>**");
         }
