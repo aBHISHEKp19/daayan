@@ -84,14 +84,15 @@ client.on('messageCreate', message => {
             message.channel.send("**TU CHUP SAALE <a:spookyghost:934414566845198356>**");
         }*/
 
-        if (message.content === 'chup') {
+       /* if (message.content === 'chup') {
 
             message.channel.send("**TU CHUP BEY <a:spookyghost:934414566845198356>**");
         }
         if (message.content === 'Chup') {
 
-            message.channel.send("**TU CHUP SAALE <a:spookyghost:934414566845198356>**");
-        }
+            message.channel.send("**TU CHUP SAALE <a:spookyghost:934414566845198356>**"); 
+        } */
+        
         if (message.content === 'Uhhun') {
 
             message.channel.send("** UHHUN <a:spookyghost:934414566845198356>**");
