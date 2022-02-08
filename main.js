@@ -102,11 +102,11 @@ client.on('messageCreate', message => {
             message.channel.send("** UHHUN <a:spookyghost:934414566845198356>**");
         }
 
-        if (message.content === 'Meri h') {
+        if (message.content.startsWith('Meri h')) {
 
             message.channel.send("**Mai sirf `APPY` Ki hun <a:ghostu:934414227026878496>**");
         }
-        if (message.content === 'meri h') {
+        if (message.content.startsWith('meri h')) {
 
             message.channel.send("**Mai sirf `APPY` Ki hun <a:ghostu:934414227026878496>**");
         }
