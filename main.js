@@ -156,11 +156,11 @@ client.on('messageCreate', message => {
 
         if (message.content === 'Kirti') {
 
-            message.channel.send("**CHAMELI HAI VO <a:ghostu:934414227026878496>**");
+            message.channel.send("**CHUTIYA HAI VO <a:ghostu:934414227026878496>**");
         }
         if (message.content === 'kirti') {
 
-            message.channel.send("**CHAMELI HAI VO <a:ghostu:934414227026878496>**");
+            message.channel.send("**CHUTIYA HAI VO <a:ghostu:934414227026878496>**");
         }
         if (message.content.startsWith('niki')) {
 
