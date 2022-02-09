@@ -121,11 +121,11 @@ client.on('messageCreate', message => {
 
         if (message.content === 'Kushal') {
 
-            message.channel.send("**I LOVE YOU kushu <a:ghostu:934414227026878496>**");
+            message.channel.send("**Voh toh marr gaya...<a:Ff_Heart:926657628522827839>**");
         } 
         if (message.content === 'kushal') {
 
-            message.channel.send("**I LOVE YOU kushu <a:ghostu:934414227026878496>**");
+            message.channel.send("**Voh toh marr gaya...<a:Ff_Heart:926657628522827839>**");
         } 
 
         if (message.content.startsWith('ily')) {
@@ -156,11 +156,11 @@ client.on('messageCreate', message => {
 
         if (message.content === 'Kirti') {
 
-            message.channel.send("**CHUTIYA HAI VO <a:ghostu:934414227026878496>**");
+            message.channel.send("**CUTIE HAI VO <a:ghostu:934414227026878496>**");
         }
         if (message.content === 'kirti') {
 
-            message.channel.send("**CHUTIYA HAI VO <a:ghostu:934414227026878496>**");
+            message.channel.send("**CUTIE HAI VO <a:ghostu:934414227026878496>**");
         }
         if (message.content.startsWith('niki')) {
 
