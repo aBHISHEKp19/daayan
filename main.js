@@ -121,11 +121,11 @@ client.on('messageCreate', message => {
 
         if (message.content === 'Kushal') {
 
-            message.channel.send("**Voh toh marr gaya... <a:PI_HeartScribble:927198819869949962>**");
+            message.channel.send("**Voh toh marr gaya...<a:PI_HeartScribble:927198819869949962>**");
         } 
         if (message.content === 'kushal') {
 
-            message.channel.send("**Voh toh marr gaya... <a:PI_HeartScribble:927198819869949962>**");
+            message.channel.send("**Voh toh marr gaya...<a:PI_HeartScribble:927198819869949962>**");
         } 
 
         if (message.content.startsWith('ily')) {
