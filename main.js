@@ -146,11 +146,11 @@ client.on('messageCreate', message => {
         }
         if (message.content === 'Nandini') {
 
-            message.channel.send("**NANDU BEWAFA HAI <a:ghostu:934414227026878496>**");
+            message.channel.send("**NANDU CHIRKURI HAI <a:ghostu:934414227026878496>**");
         }
         if (message.content === 'nandini') {
 
-            message.channel.send("**NANDU BEWAFA HAI <a:ghostu:934414227026878496>**");
+            message.channel.send("**NANDU CHIRKURI HAI <a:ghostu:934414227026878496>**");
         }
 
 
