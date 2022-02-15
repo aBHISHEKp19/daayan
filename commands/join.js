@@ -15,7 +15,6 @@ module.exports = {
 
             selfDeaf: message.guild.me.voice.setDeaf(false),
             channelId: message.member.voice.channel.id,
-
             guildId: message.guild.id,
             adapterCreator: message.guild.voiceAdapterCreator,
 

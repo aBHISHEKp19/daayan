@@ -31,7 +31,7 @@ client.once('ready', () => {
     console.log('daayan is here');
 
     //client.user.setActivity("BB |" + BotVersion);
-    client.user.setActivity('BHOOT BANGLA', { type: 'WATCHING' });
+    client.user.setActivity('BHOOT BANGLA'|`${client.users.cache.size} users`, { type: 'WATCHING' });
 });
 
 client.on('messageCreate', message => {
