@@ -63,7 +63,7 @@ client.on('messageCreate', message => {
     }
 
     if (message.content === prefix + 'stats') {
-        return message.reply(`Server count: ${client.guilds.cache.size}.`);
+        return message.reply(`Server count: ${client.guilds.cache.size}.\nUser count: ${client.users.cache.size} users\nChannels: ${client.channels.cache.size} channels`);
     }
 
     if (command === 'speak') {
@@ -77,6 +77,10 @@ client.on('messageCreate', message => {
 
         if (message.mentions.has(client.user.id)) {
             message.channel.send("**DAAYAN LOVES YOU!!!**");
+        }
+        
+        if (message.content === client.user.id) {
+            message.channel.send("**DAAYAN LOBES YOU!!!**");
         }
       
      /*   if (message.content === 'Hi') {
