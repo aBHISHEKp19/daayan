@@ -148,14 +148,14 @@ client.on('messageCreate', message => {
 
             message.channel.send("**Vo toh sexy hai <a:ghostu:934414227026878496>**");
         }
-        if (message.content === 'Nandini') {
+       /* if (message.content === 'Nandini') {
 
             message.channel.send("**NANDU CHIRKURI HAI <a:ghostu:934414227026878496>**");
         }
         if (message.content === 'nandini') {
 
             message.channel.send("**NANDU CHIRKURI HAI <a:ghostu:934414227026878496>**");
-        }
+        } */
 
 
         if (message.content === 'Kirti') {
