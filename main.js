@@ -185,7 +185,14 @@ client.on('messageCreate', message => {
             message.channel.send("** hoi <a:spookyghost:934414566845198356>**");
         }
 
+        if (message.content.startsWith('jiya')) {
 
+            message.channel.send("**CHARAS PHUK RHI VO!!! <a:ghostu:934414227026878496>**");
+        }
+        if (message.content.startsWith('Jiya')) {
+
+            message.channel.send("**CHARAS PHUK RHI VO!!! <a:ghostu:934414227026878496>**");
+        }
 
     /*    if (message.content === 'Rule 1') {
 
