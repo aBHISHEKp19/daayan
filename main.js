@@ -168,11 +168,11 @@ client.on('messageCreate', message => {
         }
         if (message.content.startsWith('niki')) {
 
-            message.channel.send("**chup baith BNA dedungi!!! <a:ghostu:934414227026878496>**");
+            message.channel.send("**MAALKIN KI JAI HO!!! <a:ghostu:934414227026878496>**");
         }
         if (message.content.startsWith('Niki')) {
 
-            message.channel.send("**chup beth BNA dedungi!!!  <a:ghostu:934414227026878496>**");
+            message.channel.send("**MAALKIN KI JAI HO!!!  <a:ghostu:934414227026878496>**");
         }
 
         if (message.content === 'hi' ) {
