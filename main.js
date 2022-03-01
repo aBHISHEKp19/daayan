@@ -75,7 +75,7 @@ client.on('messageCreate', message => {
 })
     client.on('messageCreate', message => {
 
-        if (message.mentions.has(client.user.id)) {
+        if (message.content === client.user.id) {
             message.channel.send("**DAAYAN LOVES YOU!!!**");
         }
         
@@ -123,14 +123,14 @@ client.on('messageCreate', message => {
             message.channel.send("**I LOVE YOU appu <a:ghostu:934414227026878496>**");
         }
 
-        if (message.content === 'Kushal') {
+       /* if (message.content === 'Kushal') {
 
             message.channel.send("**Voh toh marr gaya...<a:PI_HeartScribble:927198819869949962>**");
         } 
         if (message.content === 'kushal') {
 
             message.channel.send("**Voh toh marr gaya...<a:PI_HeartScribble:927198819869949962>**");
-        } 
+        } */
 
         if (message.content.startsWith('ily')) {
 
