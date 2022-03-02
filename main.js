@@ -75,13 +75,11 @@ client.on('messageCreate', message => {
 })
     client.on('messageCreate', message => {
 
-        if (message.content === client.user.id) {
-            message.channel.send("**DAAYAN LOVES YOU!!!**");
+        if (message.content === `${client.user.id}`) {
+            message.channel.send("**KHOON CHOOS LUNGI TERA <a:spookyghost:934414566845198356>**");
         }
         
-        if (message.content === client.user.id) {
-            message.channel.send("**DAAYAN LOBES YOU!!!**");
-        }
+     
       
      /*   if (message.content === 'Hi') {
 
@@ -148,14 +146,15 @@ client.on('messageCreate', message => {
 
             message.channel.send("**Vo toh sexy hai <a:ghostu:934414227026878496>**");
         }
-        if (message.content === 'Nandini') {
+         
+      /* if (message.content === 'Nandini') {
 
             message.channel.send("**NANDU CHIRKUNDI HAI <a:ghostu:934414227026878496>**");
         }
         if (message.content === 'nandini') {
 
             message.channel.send("**NANDU CHIRKUNDI HAI <a:ghostu:934414227026878496>**");
-        } 
+        } */
 
 
         if (message.content === 'Kirti') {
