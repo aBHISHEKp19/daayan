@@ -75,7 +75,7 @@ client.on('messageCreate', message => {
 })
     client.on('messageCreate', message => {
 
-        if (message.mentions(client.user.id)) {
+        if (message.mentions.has(client.user.id)) {
             message.channel.send("**KHOON CHOOS LUNGI TERA <a:spookyghost:934414566845198356>**");
         }
         
