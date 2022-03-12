@@ -7,7 +7,8 @@ const { Intents } = require('discord.js');
 
 require('dotenv').config();
 
-const client = new Discord.Client({ disableMentions: "everyone" }, { intents: 32767 });
+const client = new Discord.Client({intents: 32767 });
+
 
 
 const prefix = '&';
