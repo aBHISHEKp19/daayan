@@ -7,7 +7,7 @@ const { Intents } = require('discord.js');
 
 require('dotenv').config();
 
-const client = new Discord.Client({ intents: 32767 });
+const client = new Discord.Client({ disableMentions: "everyone" }, { intents: 32767 });
 
 
 const prefix = '&';
@@ -73,125 +73,125 @@ client.on('messageCreate', message => {
     }
 
 })
-    client.on('messageCreate', message => {
+client.on('messageCreate', message => {
 
-        if (message.mentions.has(client.user.id)) {
-            message.channel.send("**KHOON CHOOS LUNGI TERA <a:spookyghost:934414566845198356>**");
-        }
-        
-     
-      
-     /*   if (message.content === 'Hi') {
-
-            message.channel.send("**TU CHUP SAALE <a:spookyghost:934414566845198356>**");
-        }*/
-
-       /* if (message.content === 'chup') {
-
-            message.channel.send("**TU CHUP BEY <a:spookyghost:934414566845198356>**");
-        }
-        if (message.content === 'Chup') {
-
-            message.channel.send("**TU CHUP SAALE <a:spookyghost:934414566845198356>**"); 
-        } */
-        
-        if (message.content === 'Uhhun') {
-
-            message.channel.send("** UHHUN <a:spookyghost:934414566845198356>**");
-        }
-        if (message.content === 'uhhun') {
-
-            message.channel.send("** UHHUN <a:spookyghost:934414566845198356>**");
-        }
-
-        if (message.content.startsWith('Meri h')) {
-
-            message.channel.send("**Mai sirf `APPY` Ki hun <a:ghostu:934414227026878496>**");
-        }
-        if (message.content.startsWith('meri h')) {
-
-            message.channel.send("**Mai sirf `APPY` Ki hun <a:ghostu:934414227026878496>**");
-        }
-        if (message.content === 'Appy') {
-
-            message.channel.send("**I LOVE YOU appu <a:ghostu:934414227026878496>**");
-        }
-        if (message.content === 'appy') {
-
-            message.channel.send("**I LOVE YOU appu <a:ghostu:934414227026878496>**");
-        }
-
-       /* if (message.content === 'Kushal') {
-
-            message.channel.send("**Voh toh marr gaya...<a:PI_HeartScribble:927198819869949962>**");
-        } 
-        if (message.content === 'kushal') {
-
-            message.channel.send("**Voh toh marr gaya...<a:PI_HeartScribble:927198819869949962>**");
-        } */
-
-        if (message.content.startsWith('ily')) {
-
-            message.channel.send("**I LOVE YOU TOO <a:ghostu:934414227026878496>**");
-        }
-        if (message.content.startsWith('Ily')) {
-
-            message.channel.send("**I LOVE YOU TOO <a:ghostu:934414227026878496>**");
-        }
-        if (message.content === 'ansh') {
-
-            message.channel.send("**Vo toh sexy hai <a:ghostu:934414227026878496>**");
-        }
-        if (message.content === 'Ansh') {
-
-            message.channel.send("**Vo toh sexy hai <a:ghostu:934414227026878496>**");
-        }
-         
-      /* if (message.content === 'Nandini') {
-
-            message.channel.send("**NANDU CHIRKUNDI HAI <a:ghostu:934414227026878496>**");
-        }
-        if (message.content === 'nandini') {
-
-            message.channel.send("**NANDU CHIRKUNDI HAI <a:ghostu:934414227026878496>**");
-        } */
+    if (message.mentions.has(client.user.id)) {
+        message.channel.send("**KHOON CHOOS LUNGI TERA <a:spookyghost:934414566845198356>**");
+    }
 
 
-        if (message.content === 'Kirti') {
 
-            message.channel.send("**CUTIE HAI VO <a:ghostu:934414227026878496>**");
-        }
-        if (message.content === 'kirti') {
+    /*   if (message.content === 'Hi') {
 
-            message.channel.send("**CUTIE HAI VO <a:ghostu:934414227026878496>**");
-        }
-        if (message.content.startsWith('niki')) {
+           message.channel.send("**TU CHUP SAALE <a:spookyghost:934414566845198356>**");
+       }*/
 
-            message.channel.send("**MAALKIN KI JAI HO!!! <a:ghostu:934414227026878496>**");
-        }
-        if (message.content.startsWith('Niki')) {
+    /* if (message.content === 'chup') {
 
-            message.channel.send("**MAALKIN KI JAI HO!!!  <a:ghostu:934414227026878496>**");
-        }
+         message.channel.send("**TU CHUP BEY <a:spookyghost:934414566845198356>**");
+     }
+     if (message.content === 'Chup') {
 
-        if (message.content === 'hi' ) {
+         message.channel.send("**TU CHUP SAALE <a:spookyghost:934414566845198356>**"); 
+     } */
 
-            message.channel.send("** hoi <a:spookyghost:934414566845198356>**");
-        }
+    if (message.content === 'Uhhun') {
 
-        if (message.content === 'Hi') {
+        message.channel.send("** UHHUN <a:spookyghost:934414566845198356>**");
+    }
+    if (message.content === 'uhhun') {
 
-            message.channel.send("** hoi <a:spookyghost:934414566845198356>**");
-        }
+        message.channel.send("** UHHUN <a:spookyghost:934414566845198356>**");
+    }
 
-        if (message.content.startsWith('jiya')) {
+    if (message.content.startsWith('Meri h')) {
 
-            message.channel.send("**CHARAS PHUK RHI VO!!! <a:ghostu:934414227026878496>**");
-        }
-        if (message.content.startsWith('Jiya')) {
+        message.channel.send("**Mai sirf `APPY` Ki hun <a:ghostu:934414227026878496>**");
+    }
+    if (message.content.startsWith('meri h')) {
 
-            message.channel.send("**CHARAS PHUK RHI VO!!! <a:ghostu:934414227026878496>**");
-        }
+        message.channel.send("**Mai sirf `APPY` Ki hun <a:ghostu:934414227026878496>**");
+    }
+    if (message.content === 'Appy') {
+
+        message.channel.send("**I LOVE YOU appu <a:ghostu:934414227026878496>**");
+    }
+    if (message.content === 'appy') {
+
+        message.channel.send("**I LOVE YOU appu <a:ghostu:934414227026878496>**");
+    }
+
+    /* if (message.content === 'Kushal') {
+
+         message.channel.send("**Voh toh marr gaya...<a:PI_HeartScribble:927198819869949962>**");
+     } 
+     if (message.content === 'kushal') {
+
+         message.channel.send("**Voh toh marr gaya...<a:PI_HeartScribble:927198819869949962>**");
+     } */
+
+    if (message.content.startsWith('ily')) {
+
+        message.channel.send("**I LOVE YOU TOO <a:ghostu:934414227026878496>**");
+    }
+    if (message.content.startsWith('Ily')) {
+
+        message.channel.send("**I LOVE YOU TOO <a:ghostu:934414227026878496>**");
+    }
+    if (message.content === 'ansh') {
+
+        message.channel.send("**Vo toh sexy hai <a:ghostu:934414227026878496>**");
+    }
+    if (message.content === 'Ansh') {
+
+        message.channel.send("**Vo toh sexy hai <a:ghostu:934414227026878496>**");
+    }
+
+    /* if (message.content === 'Nandini') {
+
+          message.channel.send("**NANDU CHIRKUNDI HAI <a:ghostu:934414227026878496>**");
+      }
+      if (message.content === 'nandini') {
+
+          message.channel.send("**NANDU CHIRKUNDI HAI <a:ghostu:934414227026878496>**");
+      } */
+
+
+    if (message.content === 'Kirti') {
+
+        message.channel.send("**CUTIE HAI VO <a:ghostu:934414227026878496>**");
+    }
+    if (message.content === 'kirti') {
+
+        message.channel.send("**CUTIE HAI VO <a:ghostu:934414227026878496>**");
+    }
+    if (message.content.startsWith('niki')) {
+
+        message.channel.send("**MAALKIN KI JAI HO!!! <a:ghostu:934414227026878496>**");
+    }
+    if (message.content.startsWith('Niki')) {
+
+        message.channel.send("**MAALKIN KI JAI HO!!!  <a:ghostu:934414227026878496>**");
+    }
+
+    if (message.content === 'hi') {
+
+        message.channel.send("** hoi <a:spookyghost:934414566845198356>**");
+    }
+
+    if (message.content === 'Hi') {
+
+        message.channel.send("** hoi <a:spookyghost:934414566845198356>**");
+    }
+
+    if (message.content.startsWith('jiya')) {
+
+        message.channel.send("**CHARAS PHUK RHI VO!!! <a:ghostu:934414227026878496>**");
+    }
+    if (message.content.startsWith('Jiya')) {
+
+        message.channel.send("**CHARAS PHUK RHI VO!!! <a:ghostu:934414227026878496>**");
+    }
 
     /*    if (message.content === 'Rule 1') {
 
@@ -200,7 +200,7 @@ client.on('messageCreate', message => {
         }  */
 
 
-    })
+})
 
 /*
 const discordTTS = require("discord-tts");
