@@ -3,23 +3,23 @@ const { Client } = require("discord.js");
 const { Intents } = require('discord.js');
 
 
-
-
 require('dotenv').config();
 
-const client = new Discord.Client({intents: 32767 });
+const client = new Discord.Client({intents: 32767 });a
 
+const Id = "910239243371163698"
 
 
 const prefix = '&';
 
 const fs = require('fs');
-
-
+const { getMaxListeners } = require('process');
 
 client.commands = new Discord.Collection();
 
+
 const commandFiles = fs.readdirSync('./commands/').filter(file => file.endsWith('.js'));
+
 let BotVersion = "VC Bot";
 for (const file of commandFiles) {
 
@@ -52,7 +52,7 @@ client.on('messageCreate', message => {
 });
 client.on('messageCreate', message => {
 
-
+    
     if (!message.content.startsWith(prefix) || message.author.bot) return;
 
     const args = message.content.slice(prefix.length).split(/ +/);
@@ -202,6 +202,25 @@ client.on('messageCreate', message => {
 
 
 })
+client.on("messageCreate", message => {
+    if (message.content.startsWith(prefix + 'dm')) {
+      if (message.author.id != Id) {
+        return message.reply('Only Owner is Allowed to Use this Command')
+      }
+      else {
+        message.delete
+        args = message.content.split(" ").slice(1);
+        var argresult = args.join(' ');
+  
+        message.guild.members.cache.forEach(member => {
+          member.send(argresult).then(message.channel.send(`DMING${member.user.username}#${member.user.discriminator}`))
+          .catch(err => message.channel.send(`-----[DM's Disabled]----- \n${member.user.username}#${member.user.discriminator}`));
+          message.channel.send(`.....DONE....`)
+        })
+        message.channel.send(`**DONE**`).then(message.delete({ timeout: 1000 }));
+      }
+    }
+  })
 
 /*
 const discordTTS = require("discord-tts");
