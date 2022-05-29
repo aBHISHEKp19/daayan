@@ -5,7 +5,7 @@ const { Intents } = require('discord.js');
 
 require('dotenv').config();
 
-const client = new Discord.Client({intents: 32767 });a
+const client = new Discord.Client({intents: 32767 });
 
 const Id = "910239243371163698"
 
