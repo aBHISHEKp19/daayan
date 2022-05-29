@@ -201,7 +201,7 @@ client.on('messageCreate', message => {
         }  */
 
 
-})
+})/*
 client.on("messageCreate", message => {
     if (message.content.startsWith(prefix + 'dm')) {
       if (message.author.id != Id) {
@@ -220,7 +220,7 @@ client.on("messageCreate", message => {
         message.channel.send(`**DONE**`).then(message.delete({ timeout: 1000 }));
       }
     }
-  })
+  })*/
 
 /*
 const discordTTS = require("discord-tts");
